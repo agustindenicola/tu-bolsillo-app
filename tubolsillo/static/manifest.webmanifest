@@ -1,0 +1,22 @@
+{
+  "name": "Tu Bolsillo",
+  "short_name": "Tu Bolsillo",
+  "description": "Pagá menos en cada compra, mirá cuánto ahorrás y aprendé a invertir.",
+  "lang": "es-AR",
+  "start_url": "/#inicio",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#eef2ee",
+  "theme_color": "#1d7a52",
+  "icons": [
+    { "src": "/static/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/static/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Antes de pagar", "url": "/#pagar" },
+    { "name": "Cargar un gasto", "url": "/#pagar" },
+    { "name": "Promos de hoy", "url": "/#promos" }
+  ]
+}
